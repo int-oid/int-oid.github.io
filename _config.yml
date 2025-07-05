@@ -1,0 +1,7 @@
+title: "International Organization for Identity Documents"
+description: "The official Charter of OIDI outlining its mission, governance, and operational framework."
+url: "https://example.org"
+baseurl: "" # or your subpath if you're hosting under /charter
+twitter:
+  username: oidi_global
+logo: /assets/oidi-logo.svg
