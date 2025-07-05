@@ -2,7 +2,8 @@
 layout: default
 title: OIDI
 description: >
-  Charter of the International Organization for Identity Documents (OIDI)
+  The International Organization for Identity Documents (OIDI) is established through this Charter to create a global framework for cooperation, coordination, and mutual understanding in the field of identity documents and systems. Secure and verifiable identity management is essential for protecting legal rights, enabling access to services, facilitating international travel, safeguarding public safety, and promoting good governance. The Charter acknowledges the complexity of identity systems, including civil registries, digital credentials, biometrics, and cryptographic infrastructure, and affirms the sovereign authority of states to manage them in accordance with national laws. It highlights the need for a neutral, inclusive, and technically competent international body to guide and harmonize identity standards and practices. In response to challenges such as technological fragmentation, document fraud, and identity theft, OIDI is tasked with fostering interoperability, promoting best practices, supporting capacity building, enabling responsible information exchange, and strengthening trust in global identity infrastructure in alignment with international law and human dignity.
+
 permalink: /
 ---
 
