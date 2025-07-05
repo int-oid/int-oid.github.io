@@ -1,15 +1,261 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Ishtiaque Ahmed Rafin's Site</title>
-    <meta http-equiv="refresh" content="2;url=https://int-oid.github.io" />
-    <meta charset="UTF-8">
-    <script type="text/javascript">
-      location.href = 'https://sites.google.com/view/ioid/home';
-    </script>
-  </head>
-  <body>
-    <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:18px;text-align:center">
-    </p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>OIDI Charter</title>
+  <!-- Montserrat for logo, Space Grotesk for all else -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "International Organization for Identity Documents",
+    "alternateName": "OIDI - IOID",
+    "url": "https://example.org/charter",
+    "logo": "https://example.org/assets/oidi-logo.svg",
+    "foundingDate": "2025-01-01",
+    "founders": [
+      {
+        "@type": "Organization",
+        "name": "Founding States, IGOs, and Competent Authorities"
+      }
+    ],
+    "description": "The International Organization for Identity Documents (OIDI) is established to advance global cooperation in identity systems through shared standards, mutual recognition, and support for secure and verifiable credentials.",
+    "legalName": "International Organization for Identity Documents",
+    "location": {
+      "@type": "Place",
+      "name": "Global",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "International"
+      }
+    },
+    "sameAs": [
+      "https://example.org/oidi",
+      "https://linkedin.com/company/oidi"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Charter of the International Organization for Identity Documents",
+    "description": "Foundational charter establishing the purpose, principles, and institutional structure of the International Organization for Identity Documents (OIDI).",
+    "url": "https://example.org/charter",
+    "mainEntity": {
+      "@type": "CreativeWork",
+      "name": "OIDI Charter",
+      "author": {
+        "@type": "Organization",
+        "name": "International Organization for Identity Documents"
+      },
+      "datePublished": "2025-01-01"
+    }
+  }
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #000;
+      --accent: #fff;
+      --text: #fff;
+      --logo-font: 'Montserrat', sans-serif;
+      --body-font: 'Space Grotesk', sans-serif;
+      --border-color: #fff;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--body-font);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    body {
+      position: relative;
+      min-height: 100vh;
+      background: var(--bg);
+    }
+    .top-logo-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 44px 0 28px 0;
+      background: #000;
+    }
+    .official-dash {
+      flex: 1 1 0;
+      height: 0;
+      border: none;
+      border-top: 2.5px solid var(--border-color);
+      margin: 0 24px;
+      min-width: 32px;
+      opacity: 0.6;
+    }
+    .logo-svg-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+    }
+    .logo-svg-container svg {
+      display: block;
+      height: 180px;
+      width: auto;
+      max-width: 420px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 32px 16px 24px 16px;
+      background: #000;
+      border-radius: 10px;
+      border: 1.5px solid var(--border-color);
+      box-sizing: border-box;
+    }
+    .logo {
+      font-family: var(--logo-font);
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: 0.6em;
+      text-align: center;
+    }
+    .subtitle,
+    .subtitle-fr {
+      font-size: 1rem;
+      color: #ededed;
+      text-align: center;
+      margin-bottom: 0.6em;
+      font-family: var(--body-font);
+      letter-spacing: 0.03em;
+      opacity: 0.9;
+      font-style: normal;
+    }
+    .subtitle-fr {
+      font-style: italic;
+      margin-bottom: 1.4em;
+    }
+    h1 {
+      text-align: center;
+      font-family: var(--logo-font);
+      font-size: 1.4rem;
+      margin-bottom: 1.6em;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+    }
+    .charter {
+      font-size: 1rem;
+      line-height: 1.6;
+      max-width: 750px;
+      margin: 0 auto;
+      color: #fafafa;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      text-align: left;
+    }
+    .charter p {
+      margin: 1.1em 0;
+    }
+    .first {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .watermark { display: none; }
+    @media (max-width: 1200px) {
+      .logo-svg-container svg { height: 120px; max-width: 300px; }
+      .top-logo-bar { padding: 28px 0 14px 0; }
+      .official-dash { margin: 0 12px; }
+    }
+    @media (max-width: 900px) {
+      .logo-svg-container svg { height: 80px; max-width: 180px; }
+    }
+    @media (max-width: 700px) {
+      .container {
+        border-radius: 0;
+        margin: 0;
+        padding: 18px 4vw 14px 4vw;
+      }
+      .logo { font-size: 1.2rem; }
+      h1 { font-size: 1rem; }
+      .top-logo-bar { padding: 10px 0 6px 0; }
+      .logo-svg-container svg { height: 46px; max-width: 90px; }
+      .official-dash { margin: 0 6px; }
+    }
+    @media (max-width: 430px) {
+      .container { padding: 10px 1vw 8px 1vw; }
+      .charter { font-size: 0.97rem; }
+      .top-logo-bar { padding: 7px 0 3px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-logo-bar">
+    <hr class="official-dash">
+    <div class="logo-svg-container">
+      <!-- SVG logo, much larger and centered -->
+      <svg width="686" height="582" viewBox="0 0 686 582" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="OIDI logo">
+        <g>
+          <path d="M560.151 336.132C522.797 418.818 439.609 476.359 342.981 476.359C246.353 476.359 163.165 418.818 125.812 336.132H128.077C165.292 417.647 247.521 474.297 342.981 474.297C438.442 474.297 520.671 417.647 557.885 336.132H560.151Z" fill="white"/>
+          <path d="M531.184 336.132C495.739 404.028 424.669 450.375 342.775 450.375C260.881 450.375 189.811 404.027 154.366 336.132H156.696C191.962 402.849 262.059 448.313 342.775 448.313C423.491 448.313 493.587 402.849 528.854 336.132H531.184Z" fill="white"/>
+          <path d="M501.865 336.132C468.988 389.346 410.126 424.805 342.981 424.805C275.837 424.805 216.974 389.346 184.098 336.132H186.527C219.167 388.156 277.035 422.743 342.981 422.743C408.928 422.743 466.796 388.155 499.435 336.132H501.865Z" fill="white"/>
+          <path d="M470.21 336.132C440.797 374.26 394.654 398.822 342.775 398.822C290.896 398.822 244.753 374.26 215.34 336.132H217.955C247.03 373.053 292.134 396.759 342.775 396.759C393.416 396.759 438.52 373.053 467.595 336.132H470.21Z" fill="white"/>
+          <path d="M435.136 336.132C410.96 358.892 378.393 372.838 342.569 372.838C306.744 372.838 274.178 358.892 250.001 336.132H253.036C276.669 357.654 308.086 370.776 342.569 370.776C377.051 370.776 408.469 357.654 432.101 336.132H435.136Z" fill="white"/>
+          <path d="M390.894 336.132C376.375 343.263 360.043 347.267 342.775 347.267C325.507 347.267 309.175 343.263 294.656 336.132H299.539C312.764 341.966 327.391 345.205 342.775 345.205C358.159 345.205 372.786 341.966 386.011 336.132H390.894Z" fill="white"/>
+          <path d="M342.981 0C439.609 1.66891e-05 522.797 57.5409 560.151 140.227H557.885C520.671 58.7118 438.442 2.06209 342.981 2.06208C247.521 2.06208 165.292 58.7117 128.077 140.227H125.812C163.165 57.5409 246.353 0 342.981 0Z" fill="white"/>
+          <path d="M342.775 25.5707C424.835 25.5707 496.027 72.1061 531.399 140.227H529.072C493.876 73.2847 423.657 27.6328 342.775 27.6328C261.893 27.6328 191.674 73.2848 156.478 140.227H154.151C189.523 72.1061 260.715 25.5707 342.775 25.5707Z" fill="white"/>
+          <path d="M342.981 51.554C410.126 51.5541 468.988 87.0132 501.865 140.227H499.435C466.796 88.2032 408.928 53.6161 342.981 53.6161C277.035 53.6161 219.167 88.2033 186.527 140.227H184.098C216.974 87.0132 275.837 51.554 342.981 51.554Z" fill="white"/>
+          <path d="M342.775 77.1248C394.841 77.1248 441.129 101.863 470.527 140.227H467.918C438.855 103.07 393.604 79.1868 342.775 79.1868C291.946 79.1868 246.695 103.07 217.631 140.227H215.023C244.421 101.863 290.709 77.1248 342.775 77.1248Z" fill="white"/>
+          <path d="M342.569 102.696C378.824 102.696 411.742 116.979 436.004 140.227H432.998C409.267 118.215 377.489 104.758 342.569 104.758C307.648 104.758 275.871 118.215 252.139 140.227H249.133C273.395 116.979 306.314 102.696 342.569 102.696Z" fill="white"/>
+          <path d="M342.775 128.679C360.373 128.679 376.999 132.838 391.725 140.227H386.935C373.468 134.133 358.518 130.741 342.775 130.741C327.032 130.741 312.082 134.133 298.615 140.227H293.825C308.551 132.838 325.177 128.679 342.775 128.679Z" fill="white"/>
+          <path d="M198.023 315.587C186.786 315.587 176.353 313.69 166.722 309.896C157.237 305.956 148.92 300.484 141.769 293.48C134.765 286.475 129.293 278.304 125.353 268.965C121.413 259.626 119.443 249.411 119.443 238.321C119.443 227.231 121.413 217.016 125.353 207.677C129.293 198.338 134.765 190.166 141.769 183.162C148.92 176.158 157.237 170.759 166.722 166.965C176.353 163.025 186.786 161.055 198.023 161.055C209.259 161.055 219.619 163.025 229.104 166.965C238.735 170.759 247.053 176.158 254.057 183.162C261.207 190.166 266.752 198.338 270.692 207.677C274.632 217.016 276.602 227.231 276.602 238.321C276.602 249.411 274.632 259.626 270.692 268.965C266.752 278.304 261.207 286.475 254.057 293.48C247.053 300.484 238.735 305.956 229.104 309.896C219.619 313.69 209.259 315.587 198.023 315.587ZM198.023 311.428C208.529 311.428 218.306 309.604 227.353 305.956C236.4 302.308 244.28 297.201 250.992 290.634C257.705 283.922 262.885 276.188 266.533 267.432C270.327 258.531 272.224 248.827 272.224 238.321C272.224 227.814 270.327 218.183 266.533 209.428C262.885 200.527 257.705 192.793 250.992 186.226C244.28 179.514 236.4 174.334 227.353 170.686C218.306 167.038 208.529 165.214 198.023 165.214C187.516 165.214 177.739 167.038 168.692 170.686C159.645 174.334 151.765 179.514 145.053 186.226C138.34 192.793 133.087 200.527 129.293 209.428C125.645 218.183 123.821 227.814 123.821 238.321C123.821 248.827 125.645 258.531 129.293 267.432C133.087 276.188 138.34 283.922 145.053 290.634C151.765 297.201 159.645 302.308 168.692 305.956C177.739 309.604 187.516 311.428 198.023 311.428Z" fill="white"/>
+          <path d="M318.614 314.93V161.711H322.992V314.93H318.614Z" fill="white"/>
+          <path d="M381.244 314.93V161.711H439.248C455.446 161.711 469.6 165.068 481.712 171.78C493.823 178.347 503.235 187.394 509.948 198.922C516.66 210.45 520.016 223.583 520.016 238.321C520.016 253.059 516.66 266.192 509.948 277.72C503.235 289.248 493.823 298.368 481.712 305.08C469.6 311.647 455.446 314.93 439.248 314.93H381.244ZM385.622 310.771H438.81C454.424 310.771 467.995 307.634 479.523 301.359C491.051 295.085 499.952 286.548 506.227 275.75C512.501 264.806 515.639 252.329 515.639 238.321C515.639 224.312 512.501 211.909 506.227 201.111C499.952 190.166 491.051 181.557 479.523 175.282C467.995 169.008 454.424 165.87 438.81 165.87H385.622V310.771Z" fill="white"/>
+          <path d="M562.08 314.93V161.711H566.457V314.93H562.08Z" fill="white"/>
+          <path d="M378.61 504.284C411.757 504.284 441.362 520.308 470.45 532.377C496.767 543.295 531.675 541.132 554.985 525.055C543.451 539.529 528.017 548.439 512.087 554.489C482.471 566.307 447.91 557.238 422.714 541.133C404.56 529.528 388.998 513.08 367.391 513.08C363.563 513.08 359.711 513.511 355.849 514.323C386.191 526.479 413.782 547.892 435.316 568.465C431.353 572.993 426.226 577.225 421.393 581.125C397.382 556.312 370.159 529.435 343.019 518.333C315.878 529.435 288.655 556.312 264.644 581.125C259.811 577.225 254.684 572.993 250.721 568.465C272.255 547.892 299.845 526.479 330.187 514.323C326.325 513.511 322.474 513.08 318.646 513.08C297.039 513.08 281.478 529.528 263.323 541.133C238.127 557.238 203.566 566.307 173.95 554.489C158.02 548.439 142.586 539.529 131.052 525.055C154.362 541.132 189.27 543.295 215.587 532.377C244.675 520.308 274.28 504.284 307.427 504.284C319.497 504.284 331.417 506.304 343.019 509.809C354.62 506.304 366.54 504.284 378.61 504.284Z" fill="white"/>
+          <path d="M145.631 424.388C169.056 439.96 188.463 461.281 210.367 481.316C225.611 495.259 244.606 501.226 264.305 505.234C259.572 506.964 253.379 506.557 248.281 507.82C212.898 516.598 173.667 530.454 136.018 518.03C111.719 510.012 86.4348 491.022 74.1575 466.953C106.511 503.782 159.278 491.933 202.468 501.132C208.479 502.412 214.126 504.407 220.578 503.417C215.445 500.161 208.637 499.795 202.707 497.561C169.196 484.937 163.972 449.071 145.631 424.388Z" fill="white"/>
+          <path d="M540.406 424.388C522.066 449.071 516.841 484.937 483.33 497.561C477.4 499.795 470.592 500.161 465.459 503.417C471.911 504.407 477.558 502.412 483.569 501.132C526.76 491.933 579.526 503.782 611.88 466.953C599.602 491.022 574.318 510.012 550.02 518.03C512.37 530.454 473.14 516.598 437.756 507.82C432.658 506.557 426.465 506.964 421.732 505.234C441.431 501.226 460.426 495.259 475.67 481.316C497.574 461.281 516.981 439.96 540.406 424.388Z" fill="white"/>
+          <path d="M97.127 352.035C110.625 368.197 123.284 384.839 131.056 403.343C143.563 433.123 147.812 467.095 175.863 489.723C145.505 479.706 110.481 481.7 83.1422 463.794C54.4059 444.972 27.7726 415.261 22.2977 381.717C42.4783 427.406 93.1798 430.985 126.892 459.014C133.302 464.344 139.659 469.249 146.7 472.532L147.063 472.164C139.284 465.126 130.866 456.738 124.839 447.984C105.571 419.986 111.984 381.717 97.127 352.035Z" fill="white"/>
+          <path d="M588.91 352.035C574.053 381.717 580.466 419.986 561.198 447.984C555.172 456.738 546.753 465.126 538.974 472.164L539.337 472.532C546.378 469.249 552.735 464.344 559.145 459.014C592.857 430.985 643.559 427.406 663.739 381.717C658.265 415.261 631.631 444.972 602.895 463.794C575.556 481.7 540.532 479.706 510.174 489.723C538.225 467.095 542.474 433.123 554.981 403.343C562.753 384.839 575.412 368.197 588.91 352.035Z" fill="white"/>
+          <path d="M75.015 283.115C92.6285 321.134 86.9472 368.664 97.127 409.771C99.3789 418.866 104.917 426.825 108.329 435.438C91.0232 422.273 68.3429 410.586 49.3466 395.613C30.9756 381.132 15.0284 364.16 6.74006 342.075C0.768313 326.162 -0.786573 307.179 0.679888 289.277C3.5981 329.532 46.453 351.036 66.8893 384.126C71.2533 391.193 75.7443 398.488 82.0836 404.195C81.095 399.911 77.5684 396.113 75.6269 391.908C69.0742 377.71 66.1069 361.279 67.7425 344.384C69.7342 323.828 78.3037 304.74 75.015 283.115Z" fill="white"/>
+          <path d="M611.022 283.115C607.733 304.74 616.303 323.828 618.295 344.384C619.93 361.279 616.963 377.71 610.41 391.908C608.469 396.113 604.942 399.911 603.954 404.195C610.293 398.488 614.784 391.193 619.148 384.126C639.584 351.036 682.439 329.532 685.357 289.277C686.824 307.179 685.269 326.162 679.297 342.075C671.009 364.16 655.062 381.132 636.691 395.613C617.694 410.586 595.015 422.273 577.709 435.438C581.122 426.825 586.658 418.866 588.91 409.771C599.09 368.664 593.409 321.134 611.022 283.115Z" fill="white"/>
+          <path d="M9.43475 188.583C2.03483 226.556 27.2966 253.987 35.922 286.84C39.1726 299.22 40.2847 312.375 45.2916 323.929C45.7577 324.179 46.1626 323.694 46.4508 323.32C33.9881 288.356 52.2575 256.042 70.0566 228.482C74.7339 221.238 76.9877 212.802 79.172 204.274C81.0959 220.102 77.7266 238.425 74.7981 254.758C71.0283 275.785 63.8415 295.494 58.1301 315.782C54.3693 328.456 55.3615 342.761 57.2913 356.04L55.4757 354.592C42.2246 330.128 16.0793 311.017 8.18364 284.316C1.87368 262.977 -2.49061 238.324 1.87785 215.107C3.94441 206.123 5.52518 196.824 9.43475 188.583Z" fill="white"/>
+          <path d="M676.602 188.583C680.512 196.824 682.093 206.123 684.159 215.107C688.528 238.324 684.163 262.977 677.854 284.316C669.958 311.017 643.813 330.128 630.561 354.592L628.746 356.04C630.676 342.761 631.668 328.456 627.907 315.782C622.196 295.494 615.009 275.785 611.239 254.758C608.311 238.425 604.941 220.102 606.865 204.274C609.049 212.802 611.303 221.238 615.981 228.482C633.78 256.042 652.049 288.356 639.586 323.32C639.875 323.694 640.279 324.179 640.746 323.929C645.752 312.375 646.865 299.22 650.115 286.84C658.741 253.987 684.002 226.556 676.602 188.583Z" fill="white"/>
+          <path d="M43.8265 100.681C44.3133 100.438 44.6607 99.9501 45.2887 100.063C26.8134 128.17 43.629 163.647 41.2553 195.525L38.8177 228.243C39.1795 228.482 39.18 229.464 40.0387 229.088C41.13 225.44 41.4617 221.56 42.097 217.794C46.545 191.418 69.7053 173.058 89.3489 154.437C93.8414 150.183 97.3378 144.989 99.5875 139.225C97.9548 152.365 94.289 165.834 88.3908 177.774C73.2716 208.383 44.0702 233.091 38.8177 267.875C36.2717 234.538 15.854 209.754 15.854 174.259C15.8542 145.523 27.0425 122.082 43.8265 100.681Z" fill="white"/>
+          <path d="M640.748 100.063C641.376 99.9501 641.724 100.438 642.211 100.681C658.995 122.082 670.183 145.523 670.183 174.259C670.183 209.754 649.765 234.538 647.219 267.875C641.967 233.091 612.766 208.383 597.646 177.774C591.748 165.834 588.082 152.365 586.45 139.225C588.699 144.989 592.196 150.183 596.688 154.437C616.332 173.058 639.492 191.418 643.94 217.794C644.575 221.56 644.907 225.44 645.998 229.088C646.857 229.464 646.858 228.482 647.219 228.243L644.782 195.525C642.408 163.647 659.224 128.17 640.748 100.063Z" fill="white"/>
+          <path d="M96.6573 55.8251C72.5851 72.3768 73.892 101.96 66.5216 126.696C63.827 135.74 59.8659 144.215 57.7596 153.562L58.37 154.048C62.3737 143.481 69.2464 133.323 78.1995 124.876C95.1307 108.902 120.587 99.232 128.965 75.8657C128.582 108.337 100.902 133.021 75.6226 152.116C64.2824 160.682 54.6483 172.181 48.7677 184.236C49.7502 175.264 50.1955 167.799 49.3954 159.042C46.8008 130.676 45.1165 98.8778 64.5566 77.3251C73.8466 67.0231 84.2608 58.9978 96.6573 55.8251Z" fill="white"/>
+          <path d="M589.38 55.8251C601.776 58.9978 612.191 67.0231 621.481 77.3251C640.921 98.8778 639.236 130.676 636.642 159.042C635.842 167.799 636.287 175.264 637.269 184.236C631.389 172.181 621.755 160.682 610.415 152.116C585.135 133.021 557.455 108.337 557.072 75.8657C565.45 99.232 590.906 108.902 607.838 124.876C616.791 133.323 623.663 143.481 627.667 154.048L628.278 153.562C626.171 144.215 622.21 135.74 619.516 126.696C612.145 101.96 613.452 72.3767 589.38 55.8251Z" fill="white"/>
+          <path d="M162.265 22.7304C144.4 38.4069 132.48 58.586 118.753 76.7247C107.339 91.8114 91.6755 101.159 78.2053 113.818C85.4756 98.7332 86.8186 81.4476 96.0525 66.8538C111.842 41.8974 137.941 32.2117 162.265 22.7304Z" fill="white"/>
+          <path d="M523.772 22.7304C548.096 32.2117 574.195 41.8974 589.985 66.8538C599.219 81.4476 600.562 98.7332 607.832 113.818C594.362 101.159 578.698 91.8114 567.284 76.7247C553.558 58.586 541.637 38.4069 523.772 22.7304Z" fill="white"/>
+        </g>
+      </svg>
+    </div>
+    <hr class="official-dash">
+  </div>
+  <div class="container">
+    <div class="logo">OIDI - IOID</div>
+    <div class="subtitle">International Organization for Identity Documents</div>
+    <div class="subtitle-fr">Organisation Internationale pour les Documents d'Identité</div>
+    <h1>Charter</h1>
+    <div class="charter">
+      <p class="first">We, the States, Intergovernmental Organizations, and Competent Authorities and Institutions,</p>
+      <p>Desiring to establish an international framework through which cooperation, coordination, and mutual understanding may be advanced in the field of identity documents and systems;</p>
+      <p>Recognizing that secure, verifiable, and trustworthy identity management is essential for the exercise of legal rights, access to public and private services, facilitation of international travel and migration, protection of public safety, and the advancement of good governance;</p>
+      <p>Acknowledging the increasing complexity and global relevance of identity systems, including but not limited to civil registries, physical and electronic credentials, biometric authentication, cryptographic mechanisms, and digital infrastructure;</p>
+      <p>Recalling the diversity of national and regional practices in the issuance, verification, and governance of identity instruments, and affirming the importance of respecting such diversity while fostering international interoperability;</p>
+      <p>Affirming the sovereign authority of States and the competence of legitimate institutions to establish and manage identity systems in accordance with national laws and policies;</p>
+      <p>Emphasizing the need for a neutral, inclusive, and technically competent international body to provide guidance, coordination, and support in the development and harmonization of identity-related standards, procedures, and mechanisms;</p>
+      <p>Concerned by challenges such as technological fragmentation, lack of mutual recognition, document fraud, identity theft, and other threats to the integrity of identity systems at both national and international levels;</p>
+      <p>Convinced that enhanced international cooperation, transparency, and the application of shared technical principles can contribute to more secure, trustworthy, and interoperable identity documents and systems worldwide;</p>
+      <p>Determined to promote best practices, enable responsible information exchange, support capacity building, and strengthen international trust in identity infrastructure in a manner consistent with international law and human dignity;</p>
+      <p>Have agreed to establish the International Organization for Identity Documents, henceforth referred to as IOID and OIDI, and do hereby adopt this Charter as the constitutive instrument of its authority, functions, and institutional structure.</p>
+    </div>
+  </div>
+</body>
 </html>
